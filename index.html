@@ -8,10 +8,16 @@
 <body>
     <nav>
         <ul>
-          <li><a href="https://terramedia.fandom.com/wiki/Nazg%C3%BBl">Sobre mim</a></li>
-          <li><a href="#">Desenhos</a></li>
-          <li><a href="#">Como adquirir</a></li>
-          <li><a href="#">Fale comigo!</a></li>
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Botão dropdown
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="#">Sobre mim</a>
+                  <a class="dropdown-item" href="#">Meus trabalhos</a>
+                  <a class="dropdown-item" href="#">Contatos</a>
+                </div>
+              </div>
         </ul>
         <style>
             .container {
